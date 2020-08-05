@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -g  -g --coverage CMakeFiles/L09-BusquedaYOrdenamiento.dir/main.cpp.o CMakeFiles/L09-BusquedaYOrdenamiento.dir/src/solucion.cpp.o CMakeFiles/L09-BusquedaYOrdenamiento.dir/test/aparicionesDe.cpp.o  -o L09-BusquedaYOrdenamiento  libgtest.a 

@@ -1,0 +1,15 @@
+        -:    0:Source:/home/vane/CLionProjects/Algo1/Labo06-CLion/src/subSecuenciaQueSuma.cpp
+        -:    0:Graph:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/subSecuenciaQueSuma.cpp.gcno
+        -:    0:Data:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/subSecuenciaQueSuma.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "subSecuenciaQueSuma.h"
+        -:    2:
+    #####:    3:bool subSecunciaQueSuma(vector<int> s, int n){
+    $$$$$:    3-block  0
+    #####:    4:    return false;
+    $$$$$:    4-block  0
+        -:    5:    // Borrar el return dummy y completar
+        -:    6:
+        -:    7:}
+        -:    8:

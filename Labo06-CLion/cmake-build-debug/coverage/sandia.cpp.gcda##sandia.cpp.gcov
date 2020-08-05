@@ -1,0 +1,11 @@
+        -:    0:Source:/home/vane/CLionProjects/Algo1/Labo06-CLion/src/sandia.cpp
+        -:    0:Graph:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/sandia.cpp.gcno
+        -:    0:Data:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/src/sandia.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+    #####:    1:bool sandia(int porciones) {
+    $$$$$:    1-block  0
+    #####:    2:	return true;
+    $$$$$:    2-block  0
+        -:    3:	// Borrar el return dummy y completar
+        -:    4:}

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vane/CLionProjects/Algo1/practica9/main.cpp
+iostream
+-
+soluciones.h
+/home/vane/CLionProjects/Algo1/practica9/soluciones.h
+solucion.cpp
+/home/vane/CLionProjects/Algo1/practica9/solucion.cpp
+
+/home/vane/CLionProjects/Algo1/practica9/solucion.cpp
+soluciones.h
+/home/vane/CLionProjects/Algo1/practica9/soluciones.h
+iostream
+-
+
+/home/vane/CLionProjects/Algo1/practica9/soluciones.h
+utility
+-
+vector
+-
+

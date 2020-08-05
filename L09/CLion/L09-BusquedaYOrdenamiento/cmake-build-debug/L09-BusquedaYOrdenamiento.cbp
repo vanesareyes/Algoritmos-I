@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="L09-BusquedaYOrdenamiento"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L09-BusquedaYOrdenamiento">
+				<Option output="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/L09-BusquedaYOrdenamiento" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 L09-BusquedaYOrdenamiento"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="L09-BusquedaYOrdenamiento/fast">
+				<Option output="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/L09-BusquedaYOrdenamiento" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 L09-BusquedaYOrdenamiento/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/lib/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/main.cpp">
+			<Option target="L09-BusquedaYOrdenamiento"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/src/definiciones.h">
+			<Option target="L09-BusquedaYOrdenamiento"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/src/solucion.cpp">
+			<Option target="L09-BusquedaYOrdenamiento"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/src/solucion.h">
+			<Option target="L09-BusquedaYOrdenamiento"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/test/aparicionesDe.cpp">
+			<Option target="L09-BusquedaYOrdenamiento"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

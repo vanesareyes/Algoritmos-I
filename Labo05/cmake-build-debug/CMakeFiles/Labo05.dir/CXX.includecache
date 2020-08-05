@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vane/CLionProjects/Algo1/Labo05/ejercicios.cpp
+iostream
+-
+ejercicios.h
+/home/vane/CLionProjects/Algo1/Labo05/ejercicios.h
+math.h
+-
+
+/home/vane/CLionProjects/Algo1/Labo05/ejercicios.h
+vector
+-
+string
+-
+iostream
+-
+
+/home/vane/CLionProjects/Algo1/Labo05/main.cpp
+iostream
+-
+ejercicios.h
+/home/vane/CLionProjects/Algo1/Labo05/ejercicios.h
+

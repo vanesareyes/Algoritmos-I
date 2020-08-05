@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Labo-testing"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labo-testing">
+				<Option output="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Labo-testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo-testing"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Labo-testing/fast">
+				<Option output="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Labo-testing" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 Labo-testing/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option output="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest/fast">
+				<Option output="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/libgtest.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/lib/gtest-all.cc">
+			<Option target="gtest"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/main.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/agruparAnagramas.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/agruparAnagramas.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/esPrimo.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/esPrimo.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/puntaje.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/puntaje.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/rotar.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/rotar.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/sandia.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/sandia.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/subSecuenciaQueSuma.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/src/subSecuenciaQueSuma.h">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/agruparAnagramasTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/esPrimoTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/puntajeTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/rotarTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/sandiaTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/test/subSecuenciaQueSumaTEST.cpp">
+			<Option target="Labo-testing"/>
+		</Unit>
+		<Unit filename="/home/vane/CLionProjects/Algo1/Labo06-CLion/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

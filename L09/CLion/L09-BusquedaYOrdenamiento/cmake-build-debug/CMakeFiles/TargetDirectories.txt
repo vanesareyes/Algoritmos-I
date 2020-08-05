@@ -1,0 +1,4 @@
+/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/CMakeFiles/L09-BusquedaYOrdenamiento.dir
+/home/vane/CLionProjects/Algo1/L09/CLion/L09-BusquedaYOrdenamiento/cmake-build-debug/CMakeFiles/gtest.dir

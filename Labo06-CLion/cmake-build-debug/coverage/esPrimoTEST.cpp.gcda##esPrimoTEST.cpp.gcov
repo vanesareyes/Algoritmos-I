@@ -1,0 +1,129 @@
+        -:    0:Source:/home/vane/CLionProjects/Algo1/Labo06-CLion/test/esPrimoTEST.cpp
+        -:    0:Graph:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/esPrimoTEST.cpp.gcno
+        -:    0:Data:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/test/esPrimoTEST.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "../src/esPrimo.h"
+        -:    2:#include "../lib/gtest.h"
+        -:    3:
+        8:    4:TEST(EsPrimoTest, NumeroPrimo) {
+        1:    4-block  0
+        1:    4-block  1
+        1:    4-block  2
+    %%%%%:    4-block  3
+    %%%%%:    4-block  4
+    %%%%%:    4-block  5
+    %%%%%:    4-block  6
+    %%%%%:    4-block  7
+    %%%%%:    4-block  8
+        1:    4-block  9
+        1:    4-block 10
+        1:    4-block 11
+        1:    4-block 12
+        1:    4-block 13
+        1:    4-block 14
+        1:    4-block 15
+        1:    5:    int n = 7;
+        1:    6:    bool result = esPrimo(n);
+        1:    6-block  0
+        1:    7:    EXPECT_TRUE(result);
+        1:    7-block  0
+        1:    7-block  1
+    $$$$$:    7-block  2
+    $$$$$:    7-block  3
+    $$$$$:    7-block  4
+    $$$$$:    7-block  5
+    $$$$$:    7-block  6
+        1:    7-block  7
+    %%%%%:    7-block  8
+    %%%%%:    7-block  9
+    %%%%%:    7-block 10
+    %%%%%:    7-block 11
+    %%%%%:    7-block 12
+    %%%%%:    7-block 13
+    %%%%%:    7-block 14
+    %%%%%:    7-block 15
+        1:    8:}
+        -:    9:
+        8:   10:TEST(EsPrimoTest, NumeroCompuesto) {
+        1:   10-block  0
+        1:   10-block  1
+        1:   10-block  2
+    %%%%%:   10-block  3
+    %%%%%:   10-block  4
+    %%%%%:   10-block  5
+    %%%%%:   10-block  6
+    %%%%%:   10-block  7
+    %%%%%:   10-block  8
+        1:   10-block  9
+        1:   10-block 10
+        1:   10-block 11
+        1:   10-block 12
+        1:   10-block 13
+        1:   10-block 14
+        1:   10-block 15
+        1:   11:    int n = 6;
+        1:   12:    bool result = esPrimo(n);
+        1:   12-block  0
+        1:   13:    EXPECT_FALSE(result);
+        1:   13-block  0
+    $$$$$:   13-block  1
+    $$$$$:   13-block  2
+    $$$$$:   13-block  3
+    $$$$$:   13-block  4
+    $$$$$:   13-block  5
+        1:   13-block  6
+    %%%%%:   13-block  7
+    %%%%%:   13-block  8
+    %%%%%:   13-block  9
+    %%%%%:   13-block 10
+    %%%%%:   13-block 11
+    %%%%%:   13-block 12
+    %%%%%:   13-block 13
+    %%%%%:   13-block 14
+        1:   14:}
+    %%%%%:   14-block  0
+        -:   15:
+        8:   16:TEST(EsPrimoTest, CasoBorde) {
+        1:   16-block  0
+        1:   16-block  1
+        1:   16-block  2
+    %%%%%:   16-block  3
+    %%%%%:   16-block  4
+    %%%%%:   16-block  5
+    %%%%%:   16-block  6
+    %%%%%:   16-block  7
+        1:   16-block  8
+        1:   16-block  9
+        1:   16-block 10
+        1:   16-block 11
+        1:   16-block 12
+        1:   16-block 13
+        1:   16-block 14
+        1:   17:    int n = 2;
+        1:   18:    bool result = esPrimo(n);
+        1:   18-block  0
+        1:   19:    EXPECT_TRUE(result);
+        1:   19-block  0
+        1:   19-block  1
+    $$$$$:   19-block  2
+    $$$$$:   19-block  3
+    $$$$$:   19-block  4
+    $$$$$:   19-block  5
+    $$$$$:   19-block  6
+        1:   19-block  7
+    %%%%%:   19-block  8
+    %%%%%:   19-block  9
+    %%%%%:   19-block 10
+    %%%%%:   19-block 11
+    %%%%%:   19-block 12
+    %%%%%:   19-block 13
+    %%%%%:   19-block 14
+    %%%%%:   19-block 15
+        5:   20:}
+        1:   20-block  0
+        1:   20-block  1
+        1:   20-block  2
+        1:   20-block  3
+        1:   20-block  4
+        1:   20-block  5

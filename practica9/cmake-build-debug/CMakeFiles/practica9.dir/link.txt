@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/practica9.dir/main.cpp.o CMakeFiles/practica9.dir/solucion.cpp.o  -o practica9 

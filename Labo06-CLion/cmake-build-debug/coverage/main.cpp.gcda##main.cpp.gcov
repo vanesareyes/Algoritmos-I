@@ -1,0 +1,18 @@
+        -:    0:Source:/home/vane/CLionProjects/Algo1/Labo06-CLion/main.cpp
+        -:    0:Graph:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/main.cpp.gcno
+        -:    0:Data:/home/vane/CLionProjects/Algo1/Labo06-CLion/cmake-build-debug/CMakeFiles/Labo-testing.dir/main.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "lib/gtest.h"
+        -:    2:
+        1:    3:int main(int argc, char **argv) {
+        1:    3-block  0
+        1:    4:    ::testing::InitGoogleTest(&argc, argv);
+        1:    4-block  0
+        1:    5:    return RUN_ALL_TESTS();
+        4:    6:}
+        1:    6-block  0
+        1:    6-block  1
+        1:    6-block  2
+        1:    6-block  3
+        1:    6-block  4
