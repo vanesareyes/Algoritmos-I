@@ -1,0 +1,86 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\input{../latex/Algo1Macros}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset
+{
+    language=Caml,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\begin{document}
+
+    \section*{Silencios}
+
+    \subsection*{silencios}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/silencios.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.44\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $           $ &$        $\\
+            $c_1        $ &$1       $\\
+            $c_2        $ &$1       $\\
+            $c_3        $ &$1+ n - 1$\\
+            $c_4        $ &$n - 1   $\\
+            $c_5        $ &$n - 1   $\\
+            $c_6        $ &$1 + n -1$\\
+            $c_7        $ &$n - 1   $\\
+            $           $ &$        $\\
+            $c_8        $ &$n - 1   $\\
+            $c_9        $ &$n - 1   $\\
+            $           $ &$        $\\
+            $c_{10}     $ &$n - 1   $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+            $           $ &$        $\\
+        \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $n = \longitud{s}$
+        \item $T_{silencios}(n) = c_1 +
+                                  c_2 +
+                                  c_3 \cdot n +
+                                  c_4 \cdot (n-1) +
+                                  c_5 \cdot (n-1) +
+                                  c_6 \cdot n +
+                                  c_7 \cdot (n-1) +
+                                  c_8 \cdot (n-1) +
+                                  c_9 \cdot (n-1) + \\
+                                  c_{10} \cdot (n-1)$
+        \item $T_{silencios}(n) \in O(n)$
+    \end{itemize}
+
+\end{document}

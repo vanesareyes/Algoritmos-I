@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\input{../latex/Algo1Macros}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset
+{
+    language=Caml,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\begin{document}
+
+    \section*{Acelerar}
+
+    \subsection*{acelerar}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/acelerar.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.45\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $   $ &$                                $\\
+            $c_1$ &$1                               $\\
+            $c_2$ &$m+1                             $\\
+            $c_3$ &$m                               $\\
+            $c_4$ &$\frac{m \cdot n}{2}+1           $\\
+            $c_5$ &$\frac{m \cdot n}{2}             $\\
+            $c_6$ &$\frac{m \cdot n}{2}             $\\
+            $   $ &$                                $\\
+            $   $ &$                                $\\
+            $c_7$ &$1                               $\\
+            $c_8$ &$2 \cdot \frac{m \cdot n}{2} + 2 $\\
+            $c_9$ &$\frac{m \cdot n}{2}             $\\
+            $   $ &$                                $\\
+            $   $ &$                                $\\
+            $   $ &$                                $\\
+        \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $m = \longitud{r}$
+        \item $n = \longitud{r[0].first}$
+        \item $T_{acelerar}(m, n) = c_1 + 
+                                    c_2 \cdot (m+1) +
+                                    c_3 \cdot m + 
+                                    c_4 \cdot \frac{m \cdot n}{2} +
+                                    c_5 \cdot \frac{m \cdot n}{2} +
+                                    c_6 \cdot \frac{m \cdot n}{2} +
+                                    c_7 \cdot (m \cdot n) +
+                                    c_8 \cdot (m \cdot n + 2) +
+                                    c_9 \cdot \frac{m \cdot n}{2} $ 
+        \item $T_{acelerar}(m, n) \in O(m \cdot n)$
+    \end{itemize}
+
+\end{document}

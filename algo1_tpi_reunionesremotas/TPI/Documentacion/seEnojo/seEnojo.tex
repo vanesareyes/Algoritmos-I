@@ -1,0 +1,165 @@
+\documentclass{article}
+\usepackage{listings}
+\usepackage[utf8]{inputenc}
+\input{../latex/Algo1Macros}
+
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstset
+{
+    language=Caml,
+    backgroundcolor=\color{backcolour},
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,
+    breaklines=true,
+    captionpos=b,
+    keepspaces=true,
+    numbers=left,
+    numbersep=5pt,
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\begin{document}
+
+    \section*{Se enojo?}
+
+    \subsection*{valorAbsoluto}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/valorAbsoluto.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.21\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $               $ &$   $\\
+            $c_1            $ &$ 1 $\\
+            $c_2            $ &$ 1 $\\
+            $               $ &$   $\\
+            $               $ &$   $\\
+            $               $ &$   $\\
+        \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $T_{valorAbsoluto}(n) = c_1 +
+                                      c_2$
+        \item $T_{valorAbsoluto}(n) \in O(1)$
+    \end{itemize}
+
+    \subsection*{tono}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/tono.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.325\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $                   $ &$         $\\
+            $c^{\prime}_1       $ &$1        $\\
+            $c^{\prime}_2       $ &$n+1      $\\
+            $c^{\prime}_3       $ &$n        $\\
+            $                   $ &$         $\\
+            $c^{\prime}_4       $ &$1        $\\
+            $                   $ &$         $\\
+        \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $n = \longitud{s}$
+        \item $T_{tono}(n) = c^{\prime}_1 +
+                             c^{\prime}_2 \cdot (n + 1) +
+                             c^{\prime}_3 \cdot n +
+                             c^{\prime}_4 $
+        \item $T_{tono}(n) \in O(n)$
+    \end{itemize}
+
+    \subsection*{duraMasDe}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/duraMasDe.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.21\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $                   $ &$1    $\\
+            $c^{\prime\prime}_1 $ &$1    $\\
+            $                   $ &$1    $\\
+        \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $n = \longitud{s}$
+        \item $T_{duraMasDe}(n) = c^{\prime\prime}_1 $
+        \item $T_{duraMasDe}(n) \in O(1)$
+    \end{itemize}
+
+    \newpage
+
+    \subsection*{seEnojo}
+
+    \begin{minipage}{0.70\textwidth}
+        \lstinputlisting{./code/seEnojo.cpp}
+    \end{minipage}
+    \hfill
+    \begin{minipage}{0.25\textwidth}
+        \resizebox{0.85\textwidth}{!}{%
+        \begin{tabular}{|c|c}
+            $                                                   $ &$            $\\
+            $c^{\prime\prime\prime}_1                           $ &$1           $\\
+            $c^{\prime\prime\prime}_2                           $ &$1           $\\
+            $c^{\prime\prime\prime}_3                           $ &$1           $\\
+            $                                                   $ &$            $\\
+            $                                                   $ &$            $\\
+            $c^{\prime\prime\prime}_4                           $ &$1           $\\
+            $c^{\prime\prime\prime}_5                           $ &$n - r + 1   $\\
+            $c^{\prime\prime\prime}_6                           $ &$n - r       $\\
+            $c^{\prime\prime\prime}_7 \cdot (n-r)               $ &$n - r + 1   $\\
+            $c^{\prime\prime\prime}_8 \cdot (n-r) \cdot (j-i)   $ &$n - r       $\\
+            $c^{\prime\prime\prime}_9 \cdot (n-r) \cdot (j-i)   $ &$n - r       $\\
+            $c^{\prime\prime\prime}_{10} \cdot (n-r)            $ &$n - r       $\\
+            $                                                   $ &$            $\\
+            $c^{\prime\prime\prime}_{11}                        $ &$n - r       $\\
+            $                                                   $ &$            $\\
+            $                                                   $ &$            $\\
+            $                                                   $ &$            $\\
+            $                                                   $ &$            $\\
+    \end{tabular}}
+    \end{minipage}
+
+    \begin{itemize}
+        \item $n = \longitud{s}$
+        \item $r = min * freq - 1 = 19$
+        \item $(n-r) \approx{n}$
+        \item $(j-i) \approx{n}$
+        \item $T_{seEnojo}(n) = c^{\prime\prime\prime}_1 +
+                                c^{\prime\prime\prime}_2 +
+                                c^{\prime\prime\prime}_3 +
+                                c^{\prime\prime\prime}_4 +
+                                c^{\prime\prime\prime}_5 * (n-r+1) +
+                                c^{\prime\prime\prime}_6 * (n-r) +
+                                c^{\prime\prime\prime}_7 * (n-r)^{2} +
+                                c^{\prime\prime\prime}_7 +
+                                c^{\prime\prime\prime}_8 * (n-r)^{2} * (j-i) + \\
+                                c^{\prime\prime\prime}_9 * (n-r)^{2} * (j-i) +
+                                c^{\prime\prime\prime}_{10} * (n-r)^{2} +
+                                c^{\prime\prime\prime}_{11} * (n-r)$
+        \item $T_{seEnojo}(n) \in O(n^{3})$
+    \end{itemize}
+
+\end{document}
